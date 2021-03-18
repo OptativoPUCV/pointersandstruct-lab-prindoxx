@@ -38,9 +38,9 @@ Utilice la función sumaN.
 
 void sumaNultimos(int a[], int n, int m, int * suma) {
   int i;
-  for (i=n; i<m ; i--){
-  *suma += a[i];
-}
+  for (i=n; i<=m ; i--){
+    *suma += a[i];
+  }
 }
 
 /*
@@ -75,7 +75,8 @@ typedef struct {
 } Vector;
 
 Vector * crearVector(int n) {
-   return NULL;
+  
+  return NULL;
 }
 
 /*
